@@ -1,0 +1,16 @@
+#mapid { height: 180px; }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+    height: 100%;
+    width: 100vw;
+}
+
+.imagepopup{
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+}

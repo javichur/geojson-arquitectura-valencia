@@ -1,0 +1,854 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.384817, 39.463378]
+			},
+			"properties": {
+				"title": "Finca Roja",
+				"description": "Edificio residencial",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Val%C3%A8ncia%2C_finca_Roja.JPG/245px-Val%C3%A8ncia%2C_finca_Roja.JPG",
+				"link": "https://es.wikipedia.org/wiki/Finca_Roja",
+				"styles": ["art déco valenciano"],
+				"year": "1933",
+				"authors": ["Enrique Viedma Vidal"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375889, 39.46475]
+			},
+			"properties": {
+				"title": "Casa Judía",
+				"description": "Edificio residencial",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Casa_Jueva%2C_Val%C3%A8ncia.JPG/245px-Casa_Jueva%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_Jud%C3%ADa",
+				"styles": ["art déco valenciano"],
+				"year": "1930",
+				"authors": ["Joan Guardiola"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.377125, 39.466994]
+			},
+			"properties": {
+				"title": "Estación del Norte",
+				"description": "Principal estación de ferrocarril de Valencia",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Estaci%C3%B3n_del_Norte%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_125.JPG/220px-Estaci%C3%B3n_del_Norte%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_125.JPG",
+				"link": "https://es.wikipedia.org/wiki/Estaci%C3%B3n_del_Norte_(Valencia)",
+				"styles": ["modernista"],
+				"year": "1917",
+				"authors": ["Demetrio Ribes Marco"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.379589, 39.474764]
+			},
+			"properties": {
+				"title": "Mercado Central",
+				"description": "Mercado",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Mercat_fa%C3%A7ana5.jpg/300px-Mercat_fa%C3%A7ana5.jpg",
+				"link": "https://es.wikipedia.org/wiki/Mercado_Central_de_Valencia",
+				"styles": ["modernista"],
+				"year": "1928",
+				"authors": ["Francesc Guàrdia i Vial", "Alexandre Soler", "Enrique Viedma Vidal"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.374403, 39.473319]
+			},
+			"properties": {
+				"title": "Palacio del Marqués de Dos Aguas",
+				"description": "Declarado monumento histórico-artístico en 1941",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Dosaigues_vista.jpg/245px-Dosaigues_vista.jpg",
+				"link": "https://es.wikipedia.org/wiki/Palacio_del_Marqu%C3%A9s_de_Dos_Aguas",
+				"styles": ["barroco"],
+				"year": "1867",
+				"authors": ["Hipólito Rovira", "Ignacio Vergara"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.378333, 39.474444]
+			},
+			"properties": {
+				"title": "Lonja de la Seda",
+				"description": "Patrimonio de la Humanidad (5 de diciembre de 1996)",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lonja_de_la_Seda.jpg/250px-Lonja_de_la_Seda.jpg",
+				"link": "https://es.wikipedia.org/wiki/Lonja_de_la_Seda",
+				"styles": ["gótico"],
+				"year": "1548",
+				"authors": ["Pere Compte"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.378836, 39.476133]
+			},
+			"properties": {
+				"title": "Iglesia de San Nicolás de Bari y San Pedro Mártir",
+				"description": "Uno de los mejores ejemplos de convivencia de un edificio de estructura gótica del siglo XV con una espectacular decoración barroca del siglo XVII",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Voltes_de_l%27esgl%C3%A9sia_de_sant_Nicolau%2C_Val%C3%A8ncia.JPG/300px-Voltes_de_l%27esgl%C3%A9sia_de_sant_Nicolau%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Iglesia_de_San_Nicolás_de_Bari_y_San_Pedro_Mártir",
+				"styles": ["gótico"],
+				"year": "Siglo XV",
+				"authors": ["Juan Bautista Pérez Castiel", "Antonio Palomino", "Dionís Vidal"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.368364, 39.46885]
+			},
+			"properties": {
+				"title": "Mercado de Colón",
+				"description": "Se destinó a cubrir las crecientes necesidades del Ensanche de Valencia",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mercado_de_Col%C3%B3n%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_09.JPG/320px-Mercado_de_Col%C3%B3n%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_09.JPG",
+				"link": "https://es.wikipedia.org/wiki/Mercado_de_Col%C3%B3n",
+				"styles": ["modernista"],
+				"year": "1916",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.372203, 39.467194]
+			},
+			"properties": {
+				"title": "Edificio Ferrer",
+				"description": "Edificio de viviendas. Bien de Relevancia Local",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Edificio_Ferrer%2C_Valencia.jpg/245px-Edificio_Ferrer%2C_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Ferrer",
+				"styles": ["modernista"],
+				"year": "1908",
+				"authors": ["Vicente Ferrer Pérez"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375531, 39.469475]
+			},
+			"properties": {
+				"title": "Edificio de Correos",
+				"description": "Situado en la plaza del Ayuntamiento. De estilo ecléctico dominante en la arquitectura oficial, con algunos elementos de modernismo valenciano.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Edificio_de_Correos_y_Tel%C3%A9grafos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_133.JPG/220px-Edificio_de_Correos_y_Tel%C3%A9grafos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_133.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_de_Correos_(Valencia)",
+				"styles": ["ecléctico"],
+				"year": "1923",
+				"authors": ["Miguel Ángel Navarro"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.36974, 39.470212]
+			},
+			"properties": {
+				"title": "Casa de los Dragones",
+				"description": "Denominada también edificio Cortina II",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Val%C3%A8ncia_Edifici_del_Nord.jpg/245px-Val%C3%A8ncia_Edifici_del_Nord.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_de_los_Dragones_(Valencia)",
+				"styles": ["modernista valenciano", "neogótico"],
+				"year": "1901",
+				"authors": ["José María Manuel Cortina Pérez"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.377222, 39.476694]
+			},
+			"properties": {
+				"title": "Casa Peris",
+				"description": "Situada en calle Caballeros",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Edificio_en_la_calle_Caballeros_n%C3%BAmero_8_en_Valencia.jpg/245px-Edificio_en_la_calle_Caballeros_n%C3%BAmero_8_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_Peris",
+				"styles": ["neogótico", "neomudéjar", "neobizantino"],
+				"year": "1897",
+				"authors": ["José María Manuel Cortina Pérez"],
+				"credit": "Wikipedia"
+			}
+		},
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.366975, 39.470422]
+			},
+			"properties": {
+				"title": "Edificio Cortina Pérez",
+				"description": "Proyectada por el arquitecto José María Manuel Cortina Pérez para su hermano Antonio.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Edificio_Cortina_P%C3%A9rez_%281905%29_de_Jos%C3%A9_Mar%C3%ADa_Manuel_Cortina_P%C3%A9rez_en_Valencia.jpg/245px-Edificio_Cortina_P%C3%A9rez_%281905%29_de_Jos%C3%A9_Mar%C3%ADa_Manuel_Cortina_P%C3%A9rez_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Cortina_P%C3%A9rez",
+				"styles": ["modernista"],
+				"year": "1905",
+				"authors": ["José María Manuel Cortina Pérez"],
+				"credit": "Wikipedia"
+			}
+    },
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.373389, 39.467556]
+			},
+			"properties": {
+				"title": "Edificio Cortina I",
+				"description": "conocida también como Casa de las Cruces. De inspiración medievalista.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Edificio_Cortina_I%2C_Valencia.jpg/245px-Edificio_Cortina_I%2C_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Cortina_I",
+				"styles": ["neogótico", "neomudéjar", "neobizantino"],
+				"year": "1896",
+				"authors": ["José María Manuel Cortina Pérez"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3557947, 39.4839372]
+			},
+			"properties": {
+				"title": "Espai Verd",
+				"description": "Cooperativa Espai Verd",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cooperativa_d%27habitatges_Espai_Verd%2C_Val%C3%A8ncia.JPG/320px-Cooperativa_d%27habitatges_Espai_Verd%2C_Val%C3%A8ncia.JPG",
+				"link": "https://www.lasprovincias.es/valencia-ciudad/dentro-espai-verd-20180416093709-nt.html",
+				"styles": ["brutalismo"],
+				"year": "1991",
+				"authors": ["Antonio Cortés"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.379594, 39.468797]
+			},
+			"properties": {
+				"title": "Finca de Hierro",
+				"description": "Oficialmente edificio Garcerán. Se construyó con estructura de metal. Fue el edificio más alto de la ciudad durante 40 años.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Finca_de_ferro%2C_Edifici_Garcer%C3%A1n%2C_Val%C3%A8ncia_2006.JPG/280px-Finca_de_ferro%2C_Edifici_Garcer%C3%A1n%2C_Val%C3%A8ncia_2006.JPG",
+				"link": "https://es.wikipedia.org/wiki/Finca_de_hierro",
+				"styles": [],
+				"year": "1962",
+				"authors": ["Vicente Figuerola Benavent", "Vicente Aliena Goiti"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.376636, 39.46775]
+			},
+			"properties": {
+				"title": "Edificio La Unión y el Fénix",
+				"description": "El edificio está rematado por un templete con columnas coronado por una águila cabalgada por un hombre, símbolo de la compañía en aquel entonces.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Edificio_de_La_Uni%C3%B3n_y_el_F%C3%A9nix_Espa%C3%B1ol_en_Valencia.jpg/280px-Edificio_de_La_Uni%C3%B3n_y_el_F%C3%A9nix_Espa%C3%B1ol_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_La_Uni%C3%B3n_y_el_F%C3%A9nix_(Valencia)",
+				"styles": ["neobarroco"],
+				"year": "1938",
+				"authors": ["Enrique Viedma Vidal"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.371944, 39.473028]
+			},
+			"properties": {
+				"title": "Edificio Grau",
+				"description": "Situado en calle la Paz",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Edificio_%C3%81ngeles_Grau_de_Peregr%C3%ADn_Mustieles_Cano_%281905%29_en_Valencia.jpg/245px-Edificio_%C3%81ngeles_Grau_de_Peregr%C3%ADn_Mustieles_Cano_%281905%29_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Grau",
+				"styles": ["modernista"],
+				"year": "1905",
+				"authors": ["Pelegrín Mustieles Cano"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.373194, 39.465417]
+			},
+			"properties": {
+				"title": "Casa Ortega",
+				"description": "Situado en Gran Vía",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Casa_Ortega_de_Manuel_Peris_Ferrando_%281906%29_en_la_Gran_V%C3%ADa_Marqu%C3%A9s_del_Turia_n%C3%BAmero_9_de_Valencia.jpg/245px-Casa_Ortega_de_Manuel_Peris_Ferrando_%281906%29_en_la_Gran_V%C3%ADa_Marqu%C3%A9s_del_Turia_n%C3%BAmero_9_de_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_Ortega",
+				"styles": ["modernista"],
+				"year": "1906",
+				"authors": ["Manuel Peris Ferrando"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.374306, 39.475944]
+			},
+			"properties": {
+				"title": "Casa Sancho o del Punt de Ganxo",
+				"description": "Edificio de viviendas construido en 1906 sobre la Capilla de San Valero de 1719",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Casa_Sancho_o_del_Punt_de_Gantxo_de_Manuel_Peris_Ferrando_en_la_plaza_de_la_Almoina%2C_4%2C_1906.jpg/240px-Casa_Sancho_o_del_Punt_de_Gantxo_de_Manuel_Peris_Ferrando_en_la_plaza_de_la_Almoina%2C_4%2C_1906.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_del_Punto_de_Gancho",
+				"styles": ["modernista"],
+				"year": "1906",
+				"authors": ["Manuel Peris Ferrando"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.369472, 39.469611]
+			},
+			"properties": {
+				"title": "Casa de Salvador Llop",
+				"description": "Edificio de viviendas situado en la calle Jorge Juan",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Casa_de_Salvador_Llop%2C_Valencia_de_Manuel_Peris_Ferrando%2C_calle_de_Jorge_Juan_13%2C_1911.jpg/245px-Casa_de_Salvador_Llop%2C_Valencia_de_Manuel_Peris_Ferrando%2C_calle_de_Jorge_Juan_13%2C_1911.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_de_Salvador_Llop",
+				"styles": ["modernista"],
+				"year": "1911",
+				"authors": ["Manuel Peris Ferrando"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.373806, 39.468722]
+			},
+			"properties": {
+				"title": "Colegio Notarial de Valencia",
+				"description": "El edificio alberga la sede del Colegio Notarial de la Comunidad Valenciana.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Colegio_Notarial_en_Valencia.jpg/245px-Colegio_Notarial_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Colegio_Notarial_de_Valencia",
+				"styles": ["neoclásico", "neobarroco"],
+				"year": "1883",
+				"authors": ["Joaquín María Belda"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.37725, 39.468639]
+			},
+			"properties": {
+				"title": "Casa del Chavo",
+				"description": "Fue construido para albergar la sede del Instituto Nacional de Previsión en Valencia",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Edificio_del_Instituto_Nacional_de_Previsi%C3%B3n_en_Valencia.jpg/245px-Edificio_del_Instituto_Nacional_de_Previsi%C3%B3n_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_del_Chavo",
+				"styles": ["casticismo valenciano"],
+				"year": "1928",
+				"authors": ["Enrique Viedma Vidal"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.392869, 39.472072]
+			},
+			"properties": {
+				"title": "Edificio Santa María Micaela",
+				"description": "Se enmarca en el Plan de Mutualidades Laborales desarrollado durante el franquismo.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Edifici_Santa_Maria_Micaela_de_Val%C3%A8ncia%2C_pati_interior.jpg/245px-Edifici_Santa_Maria_Micaela_de_Val%C3%A8ncia%2C_pati_interior.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Santa_Mar%C3%ADa_Micaela",
+				"styles": ["racionalismo valenciano"],
+				"year": "1961",
+				"authors": ["Santiago Artal Ríos"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.369694, 39.466361]
+			},
+			"properties": {
+				"title": "Casa de las Golondrinas",
+				"description": "Fue construida a instancias de Matilde Pons para su vivienda particular.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Casa_de_Matilde_Pons_o_dels_pardalets%2C_Val%C3%A8ncia.JPG/245px-Casa_de_Matilde_Pons_o_dels_pardalets%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_de_las_Golondrinas",
+				"styles": ["modernista"],
+				"year": "1909",
+				"authors": ["Vicente Sancho Fuster"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.331034, 39.461023]
+			},
+			"properties": {
+				"title": "Tinglados del Puerto de Valencia",
+				"description": "Están declarados como Bien de Relevancia Local de la ciudad de Valencia",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fa%C3%A7ana_del_cobert_n._4_del_port_de_Val%C3%A8ncia.JPG/245px-Fa%C3%A7ana_del_cobert_n._4_del_port_de_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Tinglados_del_Puerto_de_Valencia",
+				"styles": ["modernista"],
+				"year": "1914",
+				"authors": ["José María Fuster", "Fausto Élio"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.333083, 39.459972]
+			},
+			"properties": {
+				"title": "Casa Calabuig",
+				"description": "La planta baja, durante más de 100 años, estuvo ocupada por la conocida Casa Calabuig, un café-bar muy popular.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Antigua_Casa_Calabuig_Valencia.jpg/245px-Antigua_Casa_Calabuig_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_Calabuig",
+				"styles": ["modernista"],
+				"year": "1909",
+				"authors": ["Juan Bautista Gosálvez Navarro"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.37125, 39.472861]
+			},
+			"properties": {
+				"title": "Hotel Palace",
+				"description": "El edificio fue levantado por encargo de Enrique Trenor en la última fase de la finalización de la calle de la Paz, que permitió su conexión con la Glorieta y el Parterre",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Edificio_Trenor_de_Antonio_Martorell_Trilles_%281906%29_en_Valencia.jpg/245px-Edificio_Trenor_de_Antonio_Martorell_Trilles_%281906%29_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Hotel_Palace_(Valencia)",
+				"styles": ["modernista"],
+				"year": "1906",
+				"authors": ["Antonio Martorell Trilles"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.366247, 39.468625]
+			},
+			"properties": {
+				"title": "Edificio Chapa",
+				"description": "Uno de los grandes edificios del Ensanche Valenciano",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Edifici_Xapa%2C_Val%C3%A8ncia_04.jpg/245px-Edifici_Xapa%2C_Val%C3%A8ncia_04.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Chapa",
+				"styles": ["modernista"],
+				"year": "1916",
+				"authors": ["Antonio Martorell Trilles", "Emilio Ferrer Gisbert", "Carlos Carbonell Pañella"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375781, 39.473778]
+			},
+			"properties": {
+				"title": "Edificio Sánchez de León",
+				"description": "Su estilo es ecléctico con elementos ornamentales de inspiración francesa y algún detalle del modernismo valenciano.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Edificio_S%C3%A1nchez_de_Le%C3%B3n_de_Lucas_Garc%C3%ADa_Cardona_%281896%29_en_Valencia.jpg/245px-Edificio_S%C3%A1nchez_de_Le%C3%B3n_de_Lucas_Garc%C3%ADa_Cardona_%281896%29_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_S%C3%A1nchez_de_Le%C3%B3n",
+				"styles": ["ecléctico", "modernista"],
+				"year": "1896",
+				"authors": ["Lucas García Cardona"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.368944, 39.469139]
+			},
+			"properties": {
+				"title": "Edificio Bernardo Gómez",
+				"description": "Ubicado en la calle Jorge Juan número 19",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Edificio_Bernardo_G%C3%B3mez%2C_Valencia.jpg/245px-Edificio_Bernardo_G%C3%B3mez%2C_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Bernardo_G%C3%B3mez",
+				"styles": ["ecléctico"],
+				"year": "1920",
+				"authors": ["Vicente Rodríguez Martín"],
+				"credit": "Wikipedia"
+			}
+		},
+    		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.371444, 39.473056]
+			},
+			"properties": {
+				"title": "Casa Sagnier I o Edificio Gómez I",
+				"description": "La obra tiene influencias de la Casa Calvet de Gaudí, con el cual el arquitecto valenciano mantenía amistad.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Edificio_G%C3%B3mez_I_de_Francisco_Mora_Berenguer_en_Valencia.jpg/245px-Edificio_G%C3%B3mez_I_de_Francisco_Mora_Berenguer_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_G%C3%B3mez_I",
+				"styles": ["modernista"],
+				"year": "1903",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.372111, 39.473222]
+			},
+			"properties": {
+				"title": "Casa Sagnier II o Edificio Gómez II",
+				"description": "Edificio de viviendas situado en calle de la Paz número 21",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Casa_Sagnier_II_o_edifici_G%C3%B3mez_II%2C_Val%C3%A8ncia.JPG/245px-Casa_Sagnier_II_o_edifici_G%C3%B3mez_II%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_G%C3%B3mez_II",
+				"styles": ["modernista"],
+				"year": "1905",
+				"authors": ["Francisco Mora Berenguer", "Antonio Martorell Trilles", "Enric Sagnier"],
+				"credit": "Wikipedia"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375933, 39.4793]
+			},
+			"properties": {
+				"title": "Torres de Serranos",
+				"description": "Una de las dos puertas fortificadas de la muralla medieval de Valencia que aun permanecen en pie",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Puerta_de_los_Serranos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_86.JPG/245px-Puerta_de_los_Serranos%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_86.JPG",
+				"link": "https://es.wikipedia.org/wiki/Torres_de_Serranos",
+				"styles": ["gótico"],
+				"year": "1398",
+				"authors": ["Pere Balaguer"],
+				"credit": "Wikipedia"
+			}
+		},
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375497, 39.474969]
+			},
+			"properties": {
+				"title": "El Miguelete",
+				"description": "La torre del Micalet es la torre campanario de la catedral de Valencia.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/El_Micalet.jpg/245px-El_Micalet.jpg",
+				"link": "https://es.wikipedia.org/wiki/El_Miguelete",
+				"styles": ["gótico"],
+				"year": "1429",
+				"authors": ["Andreu Julià", "Pere Balaguer"],
+				"credit": "Wikipedia"
+			}
+    },
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375, 39.475833]
+			},
+			"properties": {
+				"title": "Catedral de Santa María de Valencia",
+				"description": "Llamada popularmente la Seu en valenciano",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Catedral_de_Valencia%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_144.JPG/213px-Catedral_de_Valencia%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_144.JPG",
+				"link": "https://es.wikipedia.org/wiki/Catedral_de_Santa_María_de_Valencia",
+				"styles": ["románico", "gótico", "renacentista", "barroco", "neoclásico"],
+				"year": "1262",
+				"authors": ["Andreu Julià"],
+				"credit": "Wikipedia"
+			}
+    },
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.372444, 39.469056]
+			},
+			"properties": {
+				"title": "Edificio Ylario",
+				"description": "Una de las pocas construcciones que quedan en pie en la calle Colón de finales del siglo XIX.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Edificio_Ylario_%281888%29_de_Lucas_Garc%C3%ADa_Cardona.jpg/245px-Edificio_Ylario_%281888%29_de_Lucas_Garc%C3%ADa_Cardona.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Ylario",
+				"styles": ["ecléctico"],
+				"year": "1889",
+				"authors": ["Lucas García Cardona"],
+				"credit": "Wikipedia"
+			}
+    },
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.331833, 39.460139]
+			},
+			"properties": {
+				"title": "Edificio del Reloj",
+				"description": "Es la sede de la Autoridad Portuaria de Valencia.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sede_de_la_autoridad_portuaria_de_Valencia.JPG/245px-Sede_de_la_autoridad_portuaria_de_Valencia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_del_Reloj",
+				"styles": ["ecléctico", "modernista"],
+				"year": "1916",
+				"authors": ["Federico G. de Membrillera"],
+				"credit": "Wikipedia"
+			}
+    },
+  	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.373806, 39.46525]
+			},
+			"properties": {
+				"title": "Edificio Francisco Sancho",
+				"description": "En su fachada destaca su rica ornamentación floral, típicamente modernista y el minucioso trabajo de herrería en los balcones y ventanales acabados en hierro forjado.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Edifici_Francisco_Sancho%2C_Val%C3%A8ncia.JPG/245px-Edifici_Francisco_Sancho%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Francisco_Sancho",
+				"styles": ["modernista"],
+				"year": "1909",
+				"authors": ["Vicente Rodríguez Martín"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3755, 39.473722]
+			},
+			"properties": {
+				"title": "Edificio Monforte",
+				"description": "Albergó los populares almacenes La Isla de Cuba.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Edificio_Monforte_de_Lucas_Garc%C3%ADa_Cardona_en_Valencia.jpg/245px-Edificio_Monforte_de_Lucas_Garc%C3%ADa_Cardona_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Monforte",
+				"styles": ["ecléctico", "modernista"],
+				"year": "1909",
+				"authors": ["Lucas García Cardona"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.344003, 39.468361]
+			},
+			"properties": {
+				"title": "Palacete de Ayora",
+				"description": "Representa un gran ejemplo de jardín monumental burgués en la ciudad de Valencia, con un estilo típico de la época modernista.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Palauet_d%27Aiora.jpg/245px-Palauet_d%27Aiora.jpg",
+				"link": "https://es.wikipedia.org/wiki/Palacete_de_Ayora",
+				"styles": ["ecléctico", "modernista"],
+				"year": "1900",
+				"authors": ["Pelegrín Mustieles Cano"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.371944, 39.471333]
+			},
+			"properties": {
+				"title": "Palacio de los Pescara",
+				"description": "Situado en la calle Pintor Sorolla número 24",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Palacio_de_los_Pescara_de_Pelegr%C3%ADn_Mustieles_Cano_en_Valencia.jpg/245px-Palacio_de_los_Pescara_de_Pelegr%C3%ADn_Mustieles_Cano_en_Valencia.jpg",
+				"link": "https://es.wikipedia.org/wiki/Palacio_de_los_Pescara",
+				"styles": ["neobarroco"],
+				"year": "1893",
+				"authors": ["Pelegrín Mustieles Cano"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.362639, 39.473444]
+			},
+			"properties": {
+				"title": "Palacio de la Exposición de Valencia",
+				"description": "Se construyó para albergar el palacio municipal de la Exposición Regional Valenciana de 1909.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Biblioteca_Municipal_Palau_de_l%27Exposicio_-_panoramio.jpg/245px-Biblioteca_Municipal_Palau_de_l%27Exposicio_-_panoramio.jpg",
+				"link": "https://es.wikipedia.org/wiki/Palacio_de_la_Exposici%C3%B3n_de_Valencia",
+				"styles": ["modernista"],
+				"year": "1909",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+    {
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375633, 39.469972]
+			},
+			"properties": {
+				"title": "Edificio Suay",
+				"description": "Ubicado en la calle Correos número 1 esquina con la plaza del Ayuntamiento",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Val%C3%A8ncia%2C_Pla%C3%A7a_del_Ajuntament-PM_52029.jpg/245px-Val%C3%A8ncia%2C_Pla%C3%A7a_del_Ajuntament-PM_52029.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Suay",
+				"styles": ["modernista"],
+				"year": "1910",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.366333, 39.467722]
+			},
+			"properties": {
+				"title": "Casa Barona",
+				"description": "Está inspirada en la fachada de la casa construida por Alexandre Soler en los números 19 y 21 de la Rambla de Cataluña en Barcelona.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Casa_Barona_de_Val%C3%A8ncia.JPG/245px-Casa_Barona_de_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_Barona",
+				"styles": ["modernista"],
+				"year": "1914",
+				"authors": ["Francisco Javier Goerlich"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.375722, 39.470056]
+			},
+			"properties": {
+				"title": "Casa Noguera",
+				"description": "Ubicada en la plaza de l'Ajuntament número 22.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Casa_Noguera%2C_Val%C3%A9ncia%2C_02.jpg/245px-Casa_Noguera%2C_Val%C3%A9ncia%2C_02.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_Noguera",
+				"styles": ["modernista"],
+				"year": "1909",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.378083, 39.473333]
+			},
+			"properties": {
+				"title": "Casa Ordeig",
+				"description": "Ubicado en la plaza del Mercat número 13.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Casa_Ordeig_de_Val%C3%A8ncia.JPG/245px-Casa_Ordeig_de_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_Ordeig",
+				"styles": ["modernista"],
+				"year": "1907",
+				"authors": ["Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.367944, 39.470861]
+			},
+			"properties": {
+				"title": "Casa Castelló",
+				"description": "Primera obra del arquitecto.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Casa_per_al_doctor_Castell%C3%B3%2C_Javier_Goerlich%2C_Val%C3%A8ncia.JPG/245px-Casa_per_al_doctor_Castell%C3%B3%2C_Javier_Goerlich%2C_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_Castell%C3%B3",
+				"styles": ["modernista"],
+				"year": "1914",
+				"authors": ["Francisco Javier Goerlich"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.388136, 39.467856]
+			},
+			"properties": {
+				"title": "Mercado de Abastos",
+				"description": "Se sitúa en el ensanche sudeste de la ciudad.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Abastos01.jpg/245px-Abastos01.jpg",
+				"link": "https://es.wikipedia.org/wiki/Mercado_de_Abastos_de_Valencia",
+				"styles": ["racionalismo"],
+				"year": "1948",
+				"authors": ["Javier Goerlich Lleó"],
+				"credit": "Wikipedia"
+			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.367722, 39.469444]
+			},
+			"properties": {
+				"title": "Casa Manuel Peris",
+				"description": "Está situado en la calle Conde de Salvatierra número 25",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Casa_Manuel_Peris-08.jpg/245px-Casa_Manuel_Peris-08.jpg",
+				"link": "https://es.wikipedia.org/wiki/Casa_Manuel_Peris",
+				"styles": ["modernista"],
+				"year": "1912",
+				"authors": ["Manuel Peris Ferrando"],
+				"credit": "Wikipedia"
+			}
+    }
+	]
+}
