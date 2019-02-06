@@ -608,7 +608,7 @@
 				"link": "https://es.wikipedia.org/wiki/Catedral_de_Santa_María_de_Valencia",
 				"styles": ["románico", "gótico", "renacentista", "barroco", "neoclásico"],
 				"year": "1262",
-				"authors": ["Andreu Julià"],
+				"authors": ["Andreu Julià", "Francesc Baldomar", "Pere Comte iniciaron"],
 				"credit": "Wikipedia"
 			}
     },
@@ -849,6 +849,127 @@
 				"authors": ["Manuel Peris Ferrando"],
 				"credit": "Wikipedia"
 			}
+    },
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3653387, 39.480117]
+			},
+			"properties": {
+				"title": "Chalets de los periodistas",
+				"description": "Ubicados en avenida Blasco Ibañez, fueron construidos por la Asociación de Prensa en modo coperativa.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Val%C3%A8ncia%2C_xalets_dels_periodistes.JPG/250px-Val%C3%A8ncia%2C_xalets_dels_periodistes.JPG",
+				"link": "https://es.wikipedia.org/wiki/Enrique_Viedma_Vidal",
+				"styles": ["modernista"],
+				"year": "1931",
+				"authors": ["Enrique Viedma Vidal"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.376989, 39.469836]
+			},
+			"properties": {
+				"title": "Casa consistorial de Valencia",
+				"description": "Sede del Consell Municipal, integra 2 construcciones de época y estilo diferenciados: la Casa de Enseñanza (1758), y la fachada principal (siglo XX).",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ayuntamiento_de_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_120.JPG/245px-Ayuntamiento_de_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_120.JPG",
+				"link": "https://es.wikipedia.org/wiki/Casa_consistorial_de_Valencia",
+				"styles": ["neoclásico", "neobarroco", "neorrenacentista"],
+				"year": "1758",
+				"authors": ["Carlos Carbonell Pañella", "Francisco Mora Berenguer"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.367, 39.469]
+			},
+			"properties": {
+				"title": "Edificio Peris",
+				"description": "Ubicado en la calle Círilo Amorós número 74.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Casa_Peris%2C_Val%C3%A8ncia_05.jpg/245px-Casa_Peris%2C_Val%C3%A8ncia_05.jpg",
+				"link": "https://es.wikipedia.org/wiki/Edificio_Peris",
+				"styles": ["modernista"],
+				"year": "1913",
+				"authors": ["Carlos Carbonell Pañella"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.373617, 39.470522]
+			},
+			"properties": {
+				"title": "Edificio del Banco de Valencia",
+				"description": "La imponente imagen que muestra este edificio resulta de un reajuste de proyecto respecto a la propuesta origina.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Banco_de_Valencia%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_134.JPG/245px-Banco_de_Valencia%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_134.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_del_Banco_de_Valencia",
+				"styles": ["casticismo valenciano"],
+				"year": "1942",
+				"authors": ["Francisco Javier Goerlich Lleó", "Vicente Traver Tomás", "Antonio Gómez Davó", "Francisco Almenar Quinzá"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.370083, 39.473639]
+			},
+			"properties": {
+				"title": "Edificio del Centro Cultural Bancaja",
+				"description": "Compuesto de dos edificios distintos unidos posteriormente para albergar el Centro Cultural Bancaja y la sede central de la fundación.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Centro_Cultural_de_Bancaja_en_la_calle_General_Tovar%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_84.JPG/245px-Centro_Cultural_de_Bancaja_en_la_calle_General_Tovar%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_84.JPG",
+				"link": "https://es.wikipedia.org/wiki/Edificio_del_Centro_Cultural_Bancaja",
+				"styles": ["ecléctico"],
+				"year": "1891",
+				"authors": ["Lucas García Cardona", "Antonio Gómez Davó"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.383975, 39.475686]
+			},
+			"properties": {
+				"title": "Torres de Quart",
+				"description": "Una de las dos puertas fortificadas de la muralla medieval de Valencia que aun permanecen en pie.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Torres_de_Cuart%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_89.JPG/245px-Torres_de_Cuart%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-30%2C_DD_89.JPG",
+				"link": "https://es.wikipedia.org/wiki/Torres_de_Quart",
+				"styles": ["gótico"],
+				"year": "1460",
+				"authors": ["Francesc Baldomar", "Pere Compte"],
+				"credit": "Wikipedia"
+			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.369178, 39.4739]
+			},
+			"properties": {
+				"title": "Convento de Santo Domingo",
+				"description": "Incluye la Capilla de los Reyes, obra de Francesc Baldomar (1439).",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Convento_de_Santo_Domingo%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_13.JPG/240px-Convento_de_Santo_Domingo%2C_Valencia%2C_Espa%C3%B1a%2C_2014-06-29%2C_DD_13.JPG",
+				"link": "https://es.wikipedia.org/wiki/Convento_de_Santo_Domingo_(Valencia)",
+				"styles": ["gótico", "barroco"],
+				"year": "1239",
+				"authors": ["Francesc Baldomar"],
+				"credit": "Wikipedia"
+			}
     }
+
+
 	]
 }
