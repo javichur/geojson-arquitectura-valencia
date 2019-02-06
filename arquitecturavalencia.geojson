@@ -968,6 +968,23 @@
 				"authors": ["Francesc Baldomar"],
 				"credit": "Wikipedia"
 			}
+    },
+	{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.3586067, 39.4674564]
+			},
+			"properties": {
+				"title": "Palacete Burgos o Casa del médico",
+				"description": "Fue encargado por María Burgos Romero.",
+				"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Casa_del_Metge_o_Palauet_Burgos%2C_avinguda_del_Port_de_Val%C3%A8ncia.JPG/240px-Casa_del_Metge_o_Palauet_Burgos%2C_avinguda_del_Port_de_Val%C3%A8ncia.JPG",
+				"link": "https://es.wikipedia.org/wiki/Francisco_Javier_Goerlich",
+				"styles": ["ecléctico"],
+				"year": "1924",
+				"authors": ["Francisco Javier Goerlich"],
+				"credit": "Wikipedia"
+			}
     }
 
 
