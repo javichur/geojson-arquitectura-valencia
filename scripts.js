@@ -1,4 +1,11 @@
 var map = null;
+var geoJson = null;
+var layerGeoJson = null;
+
+var filterPropertyName = null;
+var filterPropertyValue = null;
+
+var btnRemoveFilter = null;
 
 function inicializar(){    
 
@@ -20,10 +27,33 @@ function inicializar(){
     //map.on('locationerror', onLocationError);
     
     $.getJSON("arquitecturavalencia.geojson", function(json) {
-        L.geoJSON(json, {
-            onEachFeature: onEachFeature
-        }).addTo(map);
-    });        
+        geoJson = json;
+        loadGeoJson(geoJson);
+    });         
+    
+    btnRemoveFilter = L.easyButton('fa-eraser', function(btn, map){
+        filterBy(null, null);
+    }).addTo(map);
+    btnRemoveFilter.disable();
+}
+
+function loadGeoJson(json){    
+    layerGeoJson = L.geoJSON(json, {
+        onEachFeature: onEachFeature,
+        filter: filterFeature
+    }).addTo(map);
+}
+
+function filterFeature(feature, layer) {
+    if(!filterPropertyName || !filterPropertyValue) return true;
+
+    if(feature.properties[filterPropertyName]){
+        var p = feature.properties[filterPropertyName];
+        return (p == filterPropertyValue  || (Array.isArray(p) && p.includes(filterPropertyValue)));
+    }
+    else{
+        return false;
+    }
 }
 
 function onEachFeature(feature, layer) {
@@ -32,17 +62,46 @@ function onEachFeature(feature, layer) {
             "</h1>" + feature.properties.description + "<br />";
         
         if(feature.properties.styles){
-            htmlPopup += feature.properties.styles.join(", ") + "<br />";
+            for (var i=0; i<feature.properties.styles.length; i++) {
+                var value = feature.properties.styles[i];
+                htmlPopup += "<a href='#' onClick=\"return filterBy('styles', '" + value + "');\">" + value + 
+                             " <i class='fas fa-filter'></i></a> ";
+            }
+            htmlPopup += "<br />";
+        }
+
+        if(feature.properties.authors){
+            for (var i=0; i<feature.properties.authors.length; i++) {
+                var value = feature.properties.authors[i];
+                htmlPopup += "<a href='#' onClick=\"return filterBy('authors', '" + value + "');\">" + value + 
+                             " <i class='fas fa-filter'></i></a> ";
+            }
+            htmlPopup += "<br />";
         }
         
-        htmlPopup += feature.properties.authors.join(", ") + "<br />" +
-            feature.properties.year + "<br />" +
+        htmlPopup += feature.properties.year + "<br />" +
             "<a href='" + feature.properties.link + "' target='_blank'><img class='imagepopup' src='" +  
-            feature.properties.image + "'/></a><br />Credit: " + feature.properties.credit;
+            feature.properties.image + "'/></a><br />Credit: " +             
+            "<a href='" + feature.properties.link + "' target='_blank'>" + feature.properties.credit + 
+            " <i class='fas fa-external-link-alt'></i></a>";
         
         layer.bindPopup(htmlPopup);
     }
 }
+
+function filterBy(name, value){
+    filterPropertyName = name;
+    filterPropertyValue = value;
+
+    if(filterPropertyName) btnRemoveFilter.enable();
+    else btnRemoveFilter.disable();
+
+    map.removeLayer(layerGeoJson);
+    loadGeoJson(geoJson);
+
+    return false;
+}
+
 
 function onLocationFound(e) {
     var radius = e.accuracy / 2;
