@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Constantes
+            const RESULTADOS_PAG = 5;
+            // Vue
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    arquitectura: undefined,
+                    nombreFiltro: '',
+                    estiloFiltro: '',
+                    anyoActual: 0,
+                    anyoFiltro: 0,
+                    pag: 1
+                },
+                mounted: function () {
+                    // Variables
+                    this.anyoActual = new Date().getFullYear();
+                    this.anyoFiltro = this.anyoActual;
+                    // Obtener datos
+                    axios.get('https://raw.githubusercontent.com/javichur/geojson-arquitectura-valencia/master/arquitecturavalencia.geojson')
+                            .then(function (response) {
+                                app.arquitectura = response.data.features;
+                            })
+                            .catch(function (error) {
+                                // handle error
+                                console.log(error);
+                            })
+                            .then(function () {
+                                // always executed
+                            });
+                },
+                computed: {
+                    arquitecturaFiltrada: function () {
+                        let temp = [];
+                        let tempStyles = [];
+                        let tempAnyo = [];
+                        if(this.arquitectura != undefined) {
+                            // Filtro por nombre
+                            for(let item of this.arquitectura) {
+                                if (app.nombreFiltro == ''
+                                    || item.properties.title.toUpperCase().includes(app.nombreFiltro.toUpperCase())
+                                    || item.properties.description.toUpperCase().includes(app.nombreFiltro.toUpperCase())
+                                    ) {
+                                    // Anyadimos a nuestro array
+                                    temp.push(item);
+                                }
+                            }
+                            // Filtro por estilo
+                            for(let item of temp) {
+                                if (app.estiloFiltro == '' || item.properties.styles.includes(app.estiloFiltro)) {
+                                    tempStyles.push(item);
+                                }
+                            }
+                            // Filtro por anyo
+                            for (let item of tempStyles) {
+                                if (item.properties.year <= this.anyoFiltro) {
+                                    tempAnyo.push(item);
+                                }
+                            }
+                        }
+                        return tempAnyo;
+                    },
+                    estilos: function () {
+                        let estilos = [];
+                        // Obtengo todo los estilos
+                        for (let item of this.arquitecturaFiltrada) {
+                            estilos = estilos.concat(item.properties.styles);
+                        }
+                        // Quitamos los repetidos
+                        estilos = _.uniq(estilos);
+                        // Ordenar alfabeticamente
+                        estilos.sort();
+                        return estilos;
+                    },
+                    anyoViejo: function () {
+                        let anyoFinal = this.anyoActual;
+                        for (let item of this.arquitecturaFiltrada) {
+                            if (anyoFinal > item.properties.year) {
+                               anyoFinal = item.properties.year; 
+                            }
+                        }
+                        return anyoFinal;
+                    },
+                    listaFiltradaAnyos: function () {
+                        let listaAnyos = [];
+                        // Obtenemos los anyos
+                        for (let item of this.arquitecturaFiltrada) {
+                            // Quitamos los que lo sean numeros
+                            if (!isNaN(item.properties.year))
+                                listaAnyos.push(item.properties.year);
+                        }
+                        // Quitamos los repetidos
+                        listaAnyos = _.uniq(listaAnyos);
+                        // Ordenamos
+                        listaAnyos.sort();
+                        return listaAnyos;
+                    },
+                    pagListaArquitectura: function () {
+                        let posInicio = RESULTADOS_PAG * (this.pag - 1);
+                        let posFinal = posInicio + RESULTADOS_PAG;
+                        return this.arquitecturaFiltrada.slice(posInicio, posFinal);
+                    },
+                    pagFinal: function () {
+                        return Math.ceil(this.arquitecturaFiltrada.length / RESULTADOS_PAG);
+                    }
+                },
+                watch: {
+                   nombreFiltro: function () {
+                       this.anyoFiltro = this.anyoActual;
+                       this.pag = 1;
+                   },
+                   estiloFiltro: function () {
+                       this.anyoFiltro = this.anyoActual;
+                       this.pag = 1;
+                   },
+                   anyosFiltro: function () {
+                       this.pag = 1;
+                   }
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="app" class="container p-5 font-sans">
+        <form class="flex justify-between my-5">
+            <div>
+                <input type="text" v-model="nombreFiltro" class="border p-2" placeholder="Buscar...">
+            </div>
+            <div>
+                <label>Estilos</label>
+                <select v-model="estiloFiltro" class="w-32 border p-2">
+                    <option value="" selected>Todos</option>
+                    <option v-for="estilo in estilos" :value="estilo">{{ estilo }}</option>
+                </select>
+            </div>
+            <div>
+                {{ anyoFiltro }} <input type="range" :min="anyoViejo" :max="anyoActual" v-model="anyoFiltro" list="anyos-rango" class="border"> {{ anyoActual }}
+                <datalist id="anyos-rango">
+                    <option v-for="anyo in listaFiltradaAnyos" :value="anyo" :label="anyo">
+                </datalist>
+            </div>
+        </form>
+        <table v-if="arquitecturaFiltrada.length > 0" class="w-full border-collapse">
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+                <th>Estilo</th>
+                <th>Año</th>
+                <th>Autores</th>
+                <th>Mapa</th>
+            </tr>
+            <tr v-for="edificio in pagListaArquitectura" class="border">
+                <td>{{ edificio.properties.title }}</td>
+                <td>{{ edificio.properties.description }}</td>
+                <td>
+                    <img :src="edificio.properties.image" :alt="edificio.properties.title">
+                </td>
+                <td>
+                    <ul>
+                        <li v-for="style in edificio.properties.styles">
+                            {{ style }}
+                        </li>
+                    </ul>
+                </td>
+                <td>{{ edificio.properties.year }}</td>
+                <td>
+                    <ul>
+                        <li v-for="author in edificio.properties.authors">
+                            {{ author }}
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <img :src="`https://staticmap.ingatlancdn.com/staticmap.php?center=${edificio.geometry.coordinates[1]},${edificio.geometry.coordinates[0]}&zoom=16&size=200x200&maptype=mapnik`">
+                </td>
+            </tr>
+        </table>
+        <h2 v-else class="text-center mt-5">Sin resultados</h2>
+        <nav class="flex justify-around mt-2">
+            <!-- Comentario -->
+            <button class="bg-grey text-white p-4" v-if="pag != 1" @click="pag -= 1">&blacktriangleleft;</button>
+            <button class="bg-grey text-white p-4" v-if="pag != pagFinal" @click="pag += 1">&blacktriangleright;</button>
+        </nav>
+    </div>
+</body>
+</html>
